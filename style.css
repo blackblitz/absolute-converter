@@ -1,0 +1,7 @@
+head, body {
+  font-family: "Padauk", sans-serif;
+}
+
+#output {
+  white-space: pre-wrap;
+}

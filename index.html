@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ပကတိပြောင်းစက်</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Padauk&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
+    <main class="section">
+      <div class="container">
+        <h1 class="title"><img src="absolute.png" alt="Absolute" width="30em" height="30em"> ပကတိပြောင်းစက်</h1>
+        <div class="content">
+          <p>
+            မင်္ဂလာပါ။ ကျွန်တော့်နာမည် ပကတိပြောင်းစက်ပါ။ ကျွန်တော့်အစွမ်းကတော့ ဇော်ဂျီပဲဖြစ်ဖြစ် ယူနီကုဒ်ပဲဖြစ်ဖြစ် ရောလျက်ပဲဖြစ်ဖြစ်
+            (တစ်ကြောင်းတည်းမှာတော့ မရောနဲ့) ယူနီကုဒ်ဖြစ်အောင်လုပ်ပေးနိုင်တာပဲဖြစ်ပါတယ်။ ဒီအစွမ်းကို ဂူးဂဲလ်ရဲ့
+            <a href="https://github.com/google/myanmar-tools">မြန်မာ့ကိရိယာများ</a>
+            ကနေ ရယူထားတာဖြစ်ပါတယ်။
+            <br/>
+            ကျွန်တော့်ကို ရေးခဲ့တဲ့ဆရာက သင်္ချာသမားလေ။ အဲဒါကြောင့် ကျွန်တော့်ရဲ့အမှတ်တံဆိပ်ကလည်း ပကတိတန်ဖိုးရဲ့ သင်္ကေတဖြစ်နေတာ။
+            ပကတိတန်ဖိုးက အပေါင်းကိန်းဆိုရင် အပေါင်းကိန်းဖြစ်တယ်။ အနုတ်ကိန်းဆိုရင်လည်း အပေါင်းကိန်းဖြစ်တယ်။ ကျွန်တော်က ယူနီကုဒ်ဆိုရင်
+            ယူနီကုဒ်ပြတယ်။ ဇော်ဂျီဆိုရင်လည်း ယူနီကုဒ်ပြတယ်။
+            <br/>
+            ၂၀၁၉ ခုနှစ် အောက်တိုဘာလမှာ မြန်မာတစ်နိုင်ငံလုံး ယူနီကုဒ်ကူးပြောင်းရေးလုပ်ခဲ့ပါတယ်။ အခုအချိန်မှာ ယူနီကုဒ်ကနေဇော်ဂျီကိုပြောင်းတဲ့
+            ကိရိယာတွေဟာ ခေတ်နောက်ပြန်ဆွဲနေတာပဲ ဖြစ်ပါတယ်။ ဒါကြောင့်မို့လို့ အားလုံးပဲ ပကတိပြောင်းစက်ကိုသာ သုံးကြပါစို့။
+          </p>
+        </div>
+        <div class="field">
+          <div class="control">
+            <textarea class="textarea" id="input" placeholder="ပြောင်းချင်တာထည့်" rows="10"></textarea>
+          </div>
+        </div>
+        <div class="box">
+          <article class="media">
+            <div class="media-content">
+              <div class="content">
+                <p id="output"></p>
+              </div>
+            </div>
+            <div class="media-right">
+              <button id="copy-button" class="button is-white"><i class="fas fa-copy"></i></button>
+            </div>
+        </div>
+      </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/myanmar-tools/1.1.3/zawgyi_detector.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/myanmar-tools/1.1.3/zawgyi_converter.min.js"></script>
+    <script src="script.js"></script>
+  </body>
